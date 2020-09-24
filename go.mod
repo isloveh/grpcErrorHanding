@@ -3,7 +3,7 @@ module github.com/isloveh/grpcErrorHanding
 go 1.14
 
 require (
-	github.com/isloveh/grpclog v0.0.0-20200824101659-a7beafca0b5e
+	github.com/isloveh/grpclog v0.0.0-20200921085321-787a2dea85db
 	github.com/logrusorgru/aurora v2.0.3+incompatible // indirect
 	github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e // indirect
 	github.com/satori/go.uuid v1.2.0
