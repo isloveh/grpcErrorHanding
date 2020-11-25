@@ -55,7 +55,7 @@ func (e *Error) RecodeError(code codes.Code, message string, errorType string, e
 		Error:     httpCode,
 	}
 	b, _ := json.Marshal(response)
-	return status.Errorf(codes.Internal, "%s", b)
+	return status.Errorf(code, "%s", b)
 }
 
 func (e *Error) RecodeFatal(err error) {
